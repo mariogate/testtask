@@ -1,8 +1,10 @@
 <?php
-$servername = "scandiweb.cxoysus80pjy.eu-north-1.rds.amazonaws.com";
-$username = "root";
-$password = "Deathisnear7";
-$dbname = "newschema";
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+$servername = "fdb1028.awardspace.net";
+$username = "4517663_scandiweb";
+$password = "marwan25.";
+$dbname = "4517663_scandiweb";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
