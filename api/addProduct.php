@@ -5,7 +5,7 @@ ini_set('display_errors', 1);
 header("Access-Control-Allow-Origin: *"); // Allows any domain to access this resource
 header("Access-Control-Allow-Methods: GET, POST, OPTIONS, DELETE, PUT"); // Specify allowed HTTP methods
 header("Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With"); // Specify allowed headers
-
+header("Access-Control-Allow-Credentials: true");
 // Handle preflight requests
 if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
     http_response_code(200);
